@@ -1,0 +1,388 @@
+*{
+    margin:0;
+    padding: 0; 
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: reg;
+}
+
+.First{
+    height: 800px;
+    background-image: url('Imagenes/img5.png');
+    background-size: cover;
+}
+
+header{
+    width: 100%;
+    /*box-shadow: 0px 0px 6px 2px;*/
+    border-radius: 2px;
+   
+}
+.logo{
+    float: left;
+    padding: 10px 25px;
+    animation: MoverIzquierda 1s ease-in;
+    
+   
+}
+.logo p a{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+   
+    
+}
+.Contenedor{
+    width: 85%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+    text-transform: uppercase;
+    animation: MoverIzquierda 1s ease-in;
+    
+}
+.opciones{
+    color: rgb(26, 25, 21);
+    text-decoration: none;
+    font-weight: 700;
+    margin: 2rem;
+    padding: 15px 50px;
+    transition: all .8s ease;
+}
+.opciones:hover{
+    box-shadow: 0px 0px 2px 1px rgb(250, 250, 250);
+    background: rgb(223, 209, 209);
+}
+.principal{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+}
+.textos h2{
+    font-size: 250%;
+    animation: MoverIzquierda 1s ease-in;
+    padding: 10px 25px;
+    
+}
+.textos h4{
+    font-size: 210%;
+    animation: MoverIzquierda 1s ease-in;
+    padding: 10px 25px;
+}
+
+.textos a{
+    display: inline-block;
+    color: rgb(17, 15, 15);
+    text-decoration: none;
+    margin-top: 30px;
+    margin-left: 25px;
+    font-weight: bold;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: azure;
+    border: 2px solid powderblue;
+    padding: 10px 0;
+    animation: MoverArriba 1s ease-in;
+}
+.textos a:hover{
+    background-color: lightgray;
+}
+.Second{
+    height: 700px;
+    text-align: center;
+    background: azure;
+}
+.Second h2{
+   color: rgb(123, 139, 185)
+}
+.Second img{
+    
+    border-radius: 50%;
+    width: 200px;
+    margin-top: 200px;
+    margin-bottom: 40px;
+}
+.texto{
+    letter-spacing: 1px;
+    padding: 10px 40px;
+}
+.Second a{
+    display: inline-block;
+    color: rgb(165, 215, 238);
+    text-decoration: none;
+    margin-top: 30px;
+    margin-left: 25px;
+    font-weight: bold;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 10px 0;
+    animation: MoverArriba 1s ease-in;
+}
+.Second a:hover{
+    background-color:  rgb(85, 80, 80)
+}
+.Third{
+    display: flex;
+    height: 400px;
+    margin-top: 100px;
+}
+.Thirdimg img{
+    width: 400px;
+    border-radius: 10%;
+    margin-left: 30px;
+}
+.section1{
+    margin-left: 30px;
+    text-align: center;
+}
+.section1 h1{
+    color: rgb(123, 139, 185);
+    font-size: 35px;
+    
+
+}
+.divs{
+    border: 0px solid black;
+    display:inline-block;
+    padding: 20px 40px;
+    border-radius: 10px;
+   
+}
+.Ford{
+    display: flex;
+    height: 300px;
+}
+.section2{
+    width: 50%;
+    text-align: center;
+    padding-top: 100px;
+}
+.section2 h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: rgb(123, 139, 185)
+}
+.Fordimg{
+    width: 50%;
+}
+.Fordimg img{
+    width: 400px;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+.Five{
+    display: flex;
+    height: 300px;
+}
+.section3{
+    width: 50%;
+    text-align: center;
+    padding-top: 100px;
+}
+.section3 h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: rgb(123, 139, 185)
+}
+.Fiveimg{
+    width: 50%;
+}
+.Fiveimg img{
+    width: 400px;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+.Six{
+    display: flex;
+    height: 350px;
+}
+
+.section4{
+    width: 50%;
+    text-align: center;
+    padding-top: 100px;
+}
+.section4 h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: rgb(123, 139, 185)
+}
+.Siximg{
+    width: 50%;
+}
+.Siximg img{
+    width: 400px;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+.Seven{
+    height: 300px;
+    background: #cadcec;
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+
+}
+.Seven1{
+    width: 25%;
+    height: 100%;
+    margin-left: 25%;
+}
+.Seven1 img{
+    width: 100%;
+    height: 100%;
+}
+.Seven2{
+    width: 25%;
+    height: 100%;
+}
+.Seven2 img{
+    width: 47%;
+    height: 49.3%;
+    margin-left: 5px;
+}
+.Aparte{
+    background-color:#cadcec;
+    padding-left: 330px;
+    padding-top: 40px;
+    font-size: 30px;
+    color: rgb(123, 139, 185)
+}
+.relleno{
+    background-color:#cadcec;
+    height: 35px;
+}
+.Eight{
+    height: 400px;
+    margin-top: 50px;
+    color: rgb(123, 139, 185)
+}
+.Eightcontenedor{
+    width: 50%;
+    height: 87.1%;
+    margin-left: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.Eight h2{
+    
+    font-size: 30px;
+    padding-left: 28%;
+    margin-bottom: 15px;
+}
+.Eightdivs{
+    width: 44%;
+    height: 40%;
+    background-color:rgb(227, 238, 243);
+    margin: 20px;
+    margin-left: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    box-shadow: -10px 10px 5px rgb(227, 238, 243);
+    
+}
+.Eightdivs img{
+    width: 60px;
+    height: 40%;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+.Eightdivs div{
+    padding: 20px 20px;
+}
+.Eightdivs p{
+    margin-left: 15px;
+}
+.nine{
+    height: 450px;
+    margin-top: 40px;
+    background: rgb(123, 139, 185);
+   
+    
+}
+.nine1{
+    width: 80%;
+    
+    margin-left: 10%;
+    margin-top: 40px;
+    
+    
+
+}
+.nicont{
+    padding-top: 80px;
+    
+    text-align: center;
+}
+.i1{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border-radius: 10px;
+    margin-bottom: 4px;
+    border: solid 1px ;
+}
+.i2{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border-radius: 10px;
+    margin-bottom: 4px;
+    border: solid 1px ;
+}
+.i3{
+    width: 100%;
+    height: 100px;
+    background: transparent;
+    border-radius: 10px;
+    border: solid 1px ;
+    
+}
+.submit{
+    width: 10%;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 85%;
+    background: transparent;
+    border-radius: 10px;
+    
+    border: solid 1px ;
+}
+.submit:hover{
+    background:rgb(201, 226, 238);
+}
+@keyframes MoverIzquierda{
+    0%{
+        opacity: 0;
+        transform: translate(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+@keyframes MoverArriba{
+    0%{
+        opacity: 0;
+        transform: translate(0,100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}   
